@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    letter-spacing: -0.01rem;
+}
+.outside{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.mains{
+    display: flex;
+    flex-direction: column;
+    background-color:#0C121C;
+    color: white;
+    padding: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+.texts{width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+.pricing-deets{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8b8989;
+    font-size:0.9rem;
+    row-gap: 0.3rem;
+}  
+.pricing-title{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.pricing{
+    color: #3D419C;
+    font-weight: bold;
+    font-size: 0.9rem;
+} 
+.boxes{
+    display: flex;
+    flex-direction:row;
+    column-gap: 1.5rem;
+    color: #8b8989;
+    margin-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.title{
+    color: #f9f9f9;
+
+}
+.title-extra{
+    color: #f9f9f9; 
+}
+.monthly{
+    color: #f4eeee;
+    background-color: #3D419C;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10000rem;
+    font-size: 0.75rem;
+}
+.annual{
+color: #f4eeee;
+background-color: #131823;
+padding: 0.5rem;
+border: none;
+border-radius: 10000rem;
+font-size: 0.75rem;}
+
+
+.but{
+    width: fit-content;
+    background-color: #3D419C;
+    color: #f9f9f9;
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    border-radius: 1000rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.5rem;
+}
+.title-extra{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1{
+    
+    border:1px solid #8b898956;
+    border-radius:1rem;
+    padding: 2rem 2rem 7rem 2rem;
+}
+.box2{
+    background-color : #141923;
+    border:1px solid #3E3F94;
+    border-width: 0.1rem;
+    border-radius:1rem;
+    padding: 2rem 2rem 7rem 2rem;
+}
+.box3{
+    
+    border:1px solid #8b898956;
+    border-radius:1rem;
+    padding: 2rem 2rem 7rem 2rem;
+}
+.deets{
+    width: 90%;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.box-pricing{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    column-gap: 0.2rem;
+    
+}
+.funds{
+    font-size: 1.5rem;
+    color: #f9f9f9;
+}
+.bttn{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    margin-top:1rem;
+    background-color: #252D37;
+    border: none;
+    border-radius: 0.3rem;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+.toggle-buttons1{
+    
+    width: fit-content;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;  
+    background-color: #252D37;
+    border-radius: 100rem;
+}
+.ann{
+    justify-content: center;
+    align-content: center;
+    margin-right: 1rem;
+    margin-top: 0.05rem;
+    font-size: x-small;
+    cursor: pointer;
+}
+.mont{
+    background-color: #3D419C;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 100rem;
+    color: #f9f9f9;
+    margin-right: 0.2rem;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+.box-pricing{
+    margin-top: 1rem;
+}
+.icon{
+    background-color: #f9f9f9;
+}
+.feats{
+    margin-top: 1.5rem;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.permonth{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: top ;
+    
+}
+.bttnspec{
+  
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    margin-top:1rem;
+    background-color:  #3D419C;
+    border: none;
+    border-radius: 0.3rem;
+    color: #f9f9f9;
+    cursor: pointer;
+}
+.tick{
+  display: flex;
+  flex-direction: row;  
+}
